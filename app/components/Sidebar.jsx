@@ -21,6 +21,19 @@ export default function Sidebar() {
          </li>
        </ul>
      </div>
+     <div className="animate_top">
+       <h4 className="text-2xl text-black dark:text-white mb-12.5"></h4>
+       <div>
+         <div className="flex items-center gap-4 2xl:gap-6 mb-7.5">
+           <img src="/images/about/pgd.webp" alt="Blog" />
+           <h5 className="text-title-xsm text-black dark:text-white hover:text-primary dark:hover:text-primary ease-in-out duration-300">
+             <a href="/zbornik_PGD_Gorica_100let.pdf" target='_blank'><b>ZBORNIK</b><br/><small>1925-2025</small></a>
+           </h5>
+         </div>
+      
+       </div>
+     </div>
+  
 
      <div className="animate_top">
        <h4 className="text-2xl text-black dark:text-white mb-7.5">Povezave</h4>
@@ -45,6 +58,7 @@ export default function Sidebar() {
          </div>
        </div>
      </div>
+
    </div>
       );
 }
