@@ -1,6 +1,37 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
 
+export const metadata = {
+  title: "Aktualno – 100 let PGD Spodnja in Zgornja Gorica",
+  description: "Zahvala ob 100-letnici PGD Gorica in povezava do zbornika, ki zajema zgodovino in delovanje društva.",
+  keywords: [
+    "PGD Gorica", "100 let", "zbornik", "gasilci", "Spodnja Gorica", "Zgornja Gorica", "veselica", "proslava"
+  ],
+  openGraph: {
+    type: "article",
+    title: "Zbornik - 100 let PGD Spodnja in Zgornja Gorica",
+    description: "Oglejte si zbornik 100-letnice gasilskega društva PGD Sp. in Zg. Gorica.",
+    url: "https://pgd-gorica.si/aktualno",
+    siteName: "PGD Spodnja in Zgornja Gorica",
+    images: [
+      {
+        url: "https://pgd-gorica.si/pgd-zbornik.jpg",
+        width: 1200,
+        height: 630,
+        alt: "100 let PGD Gorica",
+        type: "image/webp"
+      }
+    ],
+    locale: "sl_SI",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zbornik ob 100-letnici PGD Gorica",
+    description: "Prenesite zbornik in poglejte, kako smo praznovali stoletnico društva PGD Spodnja in Zgornja Gorica.",
+    images: ["https://pgd-gorica.si/pgd-zbornik.jpg"],
+  },
+};
+
 export default function Aktualno() {
   return (
     <section className="pt-25 lg:pt-25 xl:pt-25 pb-20 lg:pb-25 xl:pb-30">
@@ -14,7 +45,7 @@ export default function Aktualno() {
               <img src="/images/about/veselica.webp" alt="100 let PGD Gorica" />
 
               <h2 className="font-medium text-3xl 2xl:text-title-lg text-black dark:text-white mt-11 mb-5">
-                Zahvala ob 100-letnici PGD Spodnja in Zgornja Gorica
+                Zahvala ob 100-letnici<br></br>PGD Spodnja in Zgornja Gorica
               </h2>
 
               <p>
